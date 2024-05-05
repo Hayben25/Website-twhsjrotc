@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.home-bar {
+    overflow: none;
+    background-color: white;
+}
+.home-bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+.home-bar a:hover {
+    background-color: #00308f;
+    color: white;
+}
+.home-bar .search-bar {
+    float: right;
+}
+.home-bar input[type=text] {
+    padding: 10px 16px;
+    font-size: 28px;
+    border: none;
+    margin-top: 4px;
+}
+.home-bar .search-bar button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 16px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.home-bar .search-bar button:hover {
+    background-color: #00308f;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .home-bar .search-bar {
+        float: none;
+    }
+    .home-bar a, .home-bar input[type=text], .home-bar .search-bar button {
+        float: none;
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+    }
+    .home-bar input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+.dropbtn {
+    font-family: system-ui;
+    background-color: white;
+    color: black;
+    margin-top: 8px;
+    padding: 6px 10px;
+    font-size: 28px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #00308f; color: white;}
+.dropdown:hover .dropdown-content{display: block;}
+.dropbtn:hover {background-color: #00308f; color: white;}
+.calendar {
+    width: 100%;
+}
+.announcements {
+    background-image: url(_pictures/img-3.jpg);
+    background-size: 100%;
+}
+.share {
+    text-align: left;
+    color: "black";
+}
+.motivation {
+    text-align: center;
+    display: inline-block;
+}
+.cs {
+    margin: 50px 100px;
+    width: 30%;
+    display: block;
+}
+.slides {display:none;}
+.slides {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    object-fit: cover;
+    animation: fade 40s ease-in-out infinite alternate;
+}
+.slides-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.welcome {
+    background-color: rgba(173, 216, 230,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.slides:nth-of-type(1) {
+    animation-delay: 0s;
+}
+.slides:nth-of-type(2) {
+    animation-delay: 10s;
+}
+.slides:nth-of-type(3) {
+    animation-delay: 20s;
+}
+.slides:nth-of-type(4) {
+    animation-delay: 30s;
+}
+.welcome-text {
+    font-size: 50px;
+    color: #fff;
+    z-index: 100;
+    text-align: center;
+}
+.cs-background {
+    background-image: url(_pictures/img-1.jpg);
+    background-size: 100%;
+}
+.join-text {
+    color: white;
+    font-family: Verdana;
+    text-align: left;
+}
+.join {
+    padding-top: 100px;
+    padding: 100px 25%;
+}
+.pictures-container {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pics {
+    width: 55%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.pics-text {
+    margin-left: 15%;
+    margin-right: 7%;
+    width: 30%;
+    text-align: center;
+}
+.pics-text1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
