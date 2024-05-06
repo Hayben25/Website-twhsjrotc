@@ -8,6 +8,7 @@ Rename the file to Announcements
 
 Move the file to the website folder under _files and replace the previous Announcements.html file (2.PNG)
 
+
 CS Officer
 ____________________________________________________________________________
 The website can hold up to 3 different files
@@ -17,6 +18,7 @@ To upload a file take a cs signup and click file/download/Web Page(.html) (3.PNG
 Inside the zipped folder find the sheet(not the resources folder) and rename it to the spot on the website you want it to replace(cs-1 is top, cs-2 is middle, cs-3 is bottom) (4.PNG)
 
 Move the file to the website folder under _files and replace the previous cs-#.html file (2.PNG)
+
 
 Personnel Officer
 ____________________________________________________________________________
@@ -46,3 +48,13 @@ ____________________________________________________________________________
 Table format, header is images and 2 rows for names and descriptions
 
 Formatting should be fine just add and remove image and text within their respective rows and classes
+
+
+Image replacement
+____________________________________________________________________________
+There are three images throughout the site
+
+To replace pick the replacement and rename it to img-1, img-2, or img-3
+
+Move it to the _pictures folder and replace the previous image
+
