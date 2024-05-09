@@ -212,3 +212,15 @@ html, body {
     width: 90%;
     text-align: center;
 }
+.search {
+		width: 75%;
+		margin: 15% auto; 
+}
+.table-search {
+	margin-left: 2%;
+	width: 14%;
+	margin-right: 2%;
+}
+.search-bk {
+	background-color: #3D8D7B;
+}
